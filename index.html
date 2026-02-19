@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tyler Marsh | Technical Portfolio</title>
+    <style>
+        /* Clean, modern styling */
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; color: #333; max-width: 1000px; margin: 0 auto; padding: 20px; background-color: #f9f9f9; }
+        header { background: #0078D4; color: #fff; padding: 40px 20px; text-align: center; border-radius: 8px; margin-bottom: 30px; }
+        header h1 { margin: 0; font-size: 2.5em; }
+        header p { font-size: 1.2em; margin-top: 10px; opacity: 0.9; }
+        h2 { color: #0078D4; border-bottom: 2px solid #ddd; padding-bottom: 10px; margin-top: 40px; }
+        .section-card { background: #fff; padding: 20px 30px; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.05); margin-bottom: 20px; }
+        .job-title { font-weight: bold; font-size: 1.2em; }
+        .date { color: #666; font-style: italic; float: right; }
+        ul { padding-left: 20px; }
+        ul li { margin-bottom: 8px; }
+        .skills-grid { display: flex; flex-wrap: wrap; gap: 10px; }
+        .skill-tag { background: #e1f0fa; color: #0078D4; padding: 5px 15px; border-radius: 20px; font-size: 0.9em; font-weight: bold; }
+        .btn { display: inline-block; background: #0078D4; color: #fff; padding: 10px 20px; text-decoration: none; border-radius: 5px; margin-top: 20px; }
+        .btn:hover { background: #005a9e; }
+        a { color: #0078D4; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+        footer { text-align: center; margin-top: 50px; font-size: 0.9em; color: #777; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Tyler Marsh</h1>
+        <p>Cybersecurity Professional | Technical Support Engineer | Cloud Infrastructure</p>
+        <a href="https://github.com/YOUR_GITHUB_USERNAME" class="btn">View My GitHub</a>
+    </header>
+
+    <div class="section-card">
+        <h2>👨‍💻 About Me</h2>
+        <p>I am an Information Technology professional with a Bachelor's degree in Cybersecurity from Colorado State University Global. Before pivoting fully into IT infrastructure, I served as a mentor for at-risk students and taught computer science to 600+ K-5 students at a Title 1 elementary school. This experience honed my ability to break down complex technical concepts for any audience.</p>
+    </div>
+
+    <div class="section-card">
+        <h2>💼 Professional Experience</h2>
+        <div class="job">
+            <span class="job-title">Technical Support Engineer | Hudu Technologies</span>
+            <span class="date">Apr 2023 – Nov 2024</span>
+            <p>Bridged the gap between complex infrastructure and client needs, regularly meeting with MSP CEOs and System Admins to explain technical details, troubleshoot hosting errors, and communicate bug resolutions.</p>
+            <ul>
+                <li><strong>Identity & Access Management:</strong> Set up SAML/SSO integrations (Entra ID, Okta). Troubleshot SHA256 cryptographic hash mismatches and certificate errors.</li>
+                <li><strong>Network Hardening:</strong> Supported Cloudflare Zero Trust Tunnel deployments. Re-engineered Nginx configs to force HTTPS redirection.</li>
+                <li><strong>Infrastructure Ops:</strong> Executed complex Linux server migrations and critical PostgreSQL upgrades in production. Troubleshot Docker Compose setups.</li>
+                <li><strong>Cloud Enablement:</strong> Authored internal guides for deploying Hudu on Azure VMs.</li>
+                <li><strong>Automation:</strong> Developed a Python script utilizing AI to automate sandbox data population.</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="section-card">
+        <h2>💻 Technical Skills</h2>
+        <div class="skills-grid">
+            <span class="skill-tag">Microsoft Azure</span>
+            <span class="skill-tag">Cloudflare Zero Trust</span>
+            <span class="skill-tag">Linux & Windows Server</span>
+            <span class="skill-tag">SAML/SSO (Entra ID, Okta)</span>
+            <span class="skill-tag">Docker Compose</span>
+            <span class="skill-tag">PostgreSQL</span>
+            <span class="skill-tag">Python & PowerShell</span>
+            <span class="skill-tag">Nginx</span>
+        </div>
+    </div>
+
+    <div class="section-card">
+        <h2>🔬 Capstone Projects & Labs</h2>
+        <ul>
+            <li><strong><a href="#">[Major Architecture Project Name]</a>:</strong> [Brief 1-2 sentence description of the architecture, tools used, and the business problem solved.]</li>
+            <li><strong><a href="#">Azure Cloud Governance & Data Residency</a>:</strong> Enforced GDPR compliance and restricted geographic resource deployment using Azure Policy.</li>
+        </ul>
+        <p><em>Check out my <a href="https://github.com/YOUR_GITHUB_USERNAME">GitHub</a> for full documentation and code repositories.</em></p>
+    </div>
+
+    <div class="section-card">
+        <h2>🏆 Certifications & Continuous Learning</h2>
+        <ul>
+            <li><strong>CompTIA Security+ ce</strong> | <strong>Network+ ce</strong> | <strong>CySA+ ce</strong> | <strong>PenTest+ ce</strong></li>
+            <li><strong>Associate of ISC2</strong></li>
+            <li><strong>CompTIA Stackables:</strong> CNSP, CNVP, CSAP</li>
+        </ul>
+        <div style="margin-top: 20px;">
+            <a href="https://tryhackme.com/p/marsh.j.tyler" target="_blank">
+                <img src="https://tryhackme-badges.s3.amazonaws.com/marsh.j.tyler.png" alt="TryHackMe Badge">
+            </a>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Tyler Marsh. Hosted on Microsoft Azure Static Web Apps.</p>
+    </footer>
+
+</body>
+</html>
